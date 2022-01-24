@@ -1,11 +1,6 @@
 #include <stdio.h>
 /*
-*int main(void)
-*{char *variabletype[] = {"char", "float", "int", "short", "long", "long long"};
-*for (int i = 0; i < 11; ++i)
-*{printf("Size of %s is %u\n", variabletype[i], (unsigned int)(sizeof(variabletype[i])));
-*}
-*return (0);
+*warnins arnt allowed its a lie
 */main(void)
 {printf("Size of a char: %zu byte(s)\n", sizeof(char));
 printf("Size of an int: %zu byte(s)\n", sizeof(int));
