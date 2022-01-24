@@ -1,5 +1,4 @@
 #include <stdio.h>
-/* all done */
 int main(void)
 {char *variabletype[] = {"char", "float", "int", "short", "long", "long long"};
 for (int i = 0; i < 11; ++i)
