@@ -1,11 +1,13 @@
 #include <stdio.h>
-int main(void)
+#include <ctype.h>
+/*
+*/int main(void)
 {
-char x;
-for (int x = 'A'; x <= 'z'; x++)
+int x;
+for (x = 'A'; x <= 'Z'; x++)
 {
-if (x != "e" && x != "q")
-  putchar(x);
+int lower_x = tolower(x);
 }
+putchar('\n');
 return (0);
 }
