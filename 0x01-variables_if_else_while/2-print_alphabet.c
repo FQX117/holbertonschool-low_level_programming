@@ -1,5 +1,5 @@
 #include <stdio.h>
 int main(void)
-{ putchar {a..z}
+{ putchar; {a..z}
 return (0);
 }
