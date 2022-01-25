@@ -1,5 +1,10 @@
 #include <stdio.h>
-int main(void)
-{ putchar; {a..z}
-return (0);
+int main()
+{
+for(int x = 'A'; x <= 'z'; x++)
+{
+x = tolower(x);
+putchar(x);
+}
+return 0;
 }
