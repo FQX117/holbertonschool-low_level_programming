@@ -2,6 +2,7 @@
 #include <ctype.h>
 int main(void)
 {
+char x;
 for (int x = 'A'; x <= 'z'; x++)
 {
 x = tolower(x);
