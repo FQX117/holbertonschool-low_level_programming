@@ -1,7 +1,6 @@
 #include <stdio.h>
-int main(void)
+int main(x)
 {
-int x;
 for (int x = 'A'; x <= 'z'; x++)
 {
 if (x != "e" && x != "q")
