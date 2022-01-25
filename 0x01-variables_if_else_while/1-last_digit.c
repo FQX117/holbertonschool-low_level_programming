@@ -13,11 +13,11 @@ n = rand() - RAND_MAX / 2;
 d = n % 10;
 printf("Last digit of $n is", d);
 if (n > 5)
-{ printf("and is greater than 5"); }
+{ printf("%i and is greater than 5"); }
 else if (n == 0)
-{ printf("and is 0", d); }
+{ printf("%i and is 0", d); }
 else if (n < 6)
 (n > 0);
-{ printf("and is less than 6 and not 0", d); }
+{ printf("%i and is less than 6 and not 0", d); }
 return (0);
 }
