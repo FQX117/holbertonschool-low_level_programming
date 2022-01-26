@@ -1,8 +1,10 @@
-#include stdio.h
+#include <stdio.h>
 /*
  */int main(void)
- {
-   Putchar ("_putchar");
- }
+x="_putchar"   
+{  
+putchar (x);
+}
+{
 return (0);
-
+}
