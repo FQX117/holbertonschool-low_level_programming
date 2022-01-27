@@ -12,18 +12,18 @@ putchar('0');
 for (h = 1; h <= 9; h++)
 {
 p = l * h;
-p(',');
-p(' ');
+putchar(',');
+putchar(' ');
 if (p <= 9)
 {
-p(' ');
+putchar(' ');
 }
 else
 {
-p((p / 10) + '0');
+putchar((p / 10) + '0');
 }
-p((p % 10) + '0');
+putchar((p % 10) + '0');
 }
-p('\n');
+putchar('\n');
 }
 }
