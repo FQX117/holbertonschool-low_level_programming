@@ -1,10 +1,11 @@
 #include "main.h"
+#include <stdio.h>
 /*
 */int main(void)
 {
 int x;
 for (x = 'a'; x <= 'z'; x++)
-_putchar(x);
-_putchar('\n');
+putchar(x);
+putchar('\n');
 return (0);
 }
