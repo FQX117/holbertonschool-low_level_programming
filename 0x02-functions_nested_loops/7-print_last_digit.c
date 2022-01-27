@@ -12,7 +12,7 @@ return (x);
 }
 else if (x < 0)
 {
-n = (x * -1);
+x = (x * -1);
 _putchar('0' + x);
 return (x);
 }
