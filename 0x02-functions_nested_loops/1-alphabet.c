@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <ctype.h>
-#include <main.c>
+#include <main.h>
 /*
 */int main(void)
 {
