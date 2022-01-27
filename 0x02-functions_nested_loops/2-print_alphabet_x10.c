@@ -4,9 +4,12 @@
 /*
 */int main(void)
 {
-int x;
+int x, i;
+for (i = 0; i <10; i++)
+{
 for (x = 'a'; x <= 'z'; x++)
 putchar(x);
 putchar('\n');
 return (0);
+}
 }
