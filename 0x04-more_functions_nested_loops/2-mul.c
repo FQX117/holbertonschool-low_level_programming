@@ -2,9 +2,10 @@
 
 /*
 */int mul(int a, int b)
-int c = a*b;
 {
-printf (c);
+int c;
 }
-return (0);
+c = a * b;
+}
+return (c);
 }
