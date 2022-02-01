@@ -4,11 +4,11 @@ int _isupper(int c)
 {
 if ( isupper(c) )
 {
-printf ('1');
+putchar ('1');
 }
 else
 {
-printf ('0');
+putchar ('0');
 }
     return (0);
 }
