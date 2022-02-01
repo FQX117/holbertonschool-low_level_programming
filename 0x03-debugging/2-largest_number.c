@@ -27,5 +27,6 @@ largest = c;
 else
 {
 printf (".|.");
+}
 return (largest);
 }
