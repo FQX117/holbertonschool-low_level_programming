@@ -2,7 +2,7 @@
 #include <stdio.h>
 int _isupper(int c)
 {
-if ( isupper(c) )
+if ( _isupper(c) )
 {
 putchar ('1');
 }
