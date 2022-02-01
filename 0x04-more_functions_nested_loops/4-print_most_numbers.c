@@ -3,16 +3,16 @@
 /*
 */void print_most_numbers(void)
 {
-      int i = 0;
-      while(i<=9)
-      {
-            if(i==2||i==4)
-            {
-                  i++;
-                  continue;
-            }
-            printf("%d ", i);
-            i++;
-      }   
-      return 0;
+char c;
+for (c = '0'; c <= '9'; c++)
+{
+if(c==2||c==4)
+{
+c++;
+continue;
+}
+_putchar(c);
+i++;
+}
+return 0;
 }
