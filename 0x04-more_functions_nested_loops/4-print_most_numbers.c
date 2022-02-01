@@ -12,7 +12,9 @@ c++;
 continue;
 }
 _putchar(c);
+{
 _putchar('\n');
 c++;
+}
 }
 }
