@@ -1,5 +1,6 @@
 #include "main.h"
 #include <stdio.h>
+
 int _isupper(int c)
 {
 if ( _isupper(c) )
@@ -10,4 +11,4 @@ else
 {
 return (0);
 }
-  
+} 
