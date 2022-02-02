@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include "mani.h"
+#include "main.h"
 //
 void reset_to_98(int *n); 
 {
