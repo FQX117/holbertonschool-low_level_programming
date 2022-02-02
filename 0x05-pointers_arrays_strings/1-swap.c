@@ -2,8 +2,7 @@
 /*
 */void swap_int(int *a, int *b)
 {
+*c = *a;
 *a = *b;
-*a = 42;
-*b = 98;
-*b = *a;
+*b = *c;
 }
