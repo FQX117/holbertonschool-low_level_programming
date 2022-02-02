@@ -2,6 +2,6 @@
 /*
 */int _strlen(char *s)
 {
-int c = sterlen(*s);;
+int c = strlen(*s);;
 return (c);
 }
