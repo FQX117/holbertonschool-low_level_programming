@@ -3,7 +3,7 @@
 */int _strlen(char *s)
 {
 
-char c[50];
-*s = strlen(c);
-return (*s);
+int c;
+c = strlen(char *s);
+return (c);
 }
