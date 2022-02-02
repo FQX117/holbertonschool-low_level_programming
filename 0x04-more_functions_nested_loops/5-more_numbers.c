@@ -1,11 +1,14 @@
 #include "main.h"
 
 /*
-*/void more_numbers(void)
-
+*/void print_numbers(void)
 {
-for (c = 0; c <= 10; c++)
- _putchar(c)
- _putchar('\n')
-    return (0);
+char c;
+for (c = '0'; c <= '14'; c++)
+{
+_putchar(c);
+}
+{
+_putchar('\n');
+}
 }
