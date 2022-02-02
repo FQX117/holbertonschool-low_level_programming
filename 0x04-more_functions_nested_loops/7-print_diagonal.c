@@ -12,7 +12,7 @@ for (c = 0; c < x; c++)
 {
 _putchar('$');
 }
-_putchar("\");
+_putchar('\\');
 _putchar('\n');
 }
 }
