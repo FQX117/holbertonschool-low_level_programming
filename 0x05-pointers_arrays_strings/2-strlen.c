@@ -2,8 +2,8 @@
 /*
 */int _strlen(char *s)
 {
-int c;
-*s[50];
-c = strlen(*s);
-return (c);
+
+char c[50];
+*s = strlen(c);
+return (*s);
 }
