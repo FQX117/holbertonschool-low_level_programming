@@ -2,6 +2,11 @@
 /*
 */int _strlen(char *s)
 {
-char str[50];
-int len;
-
+int c = 0;
+while (*s !=)
+{
+s++;
+c++;
+}
+return (c);
+}
