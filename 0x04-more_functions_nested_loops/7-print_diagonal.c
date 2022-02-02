@@ -10,9 +10,9 @@ for (x = 0; x < n; x++)
 {
 for (c = 0; c < x; c++)
 {
-_putchar(' ');
+_putchar('$');
 }
-_putchar('\');
+_putchar("\");
 _putchar('\n');
 }
 }
