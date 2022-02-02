@@ -2,11 +2,6 @@
 /*
 */int _strlen(char *s)
 {
-int c = 0;
-while (*s !=)
-{
-s++;
-c++;
-}
+int c = sterlen(*s);;
 return (c);
 }
