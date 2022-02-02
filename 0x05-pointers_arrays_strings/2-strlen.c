@@ -4,6 +4,6 @@
 {
 *s = 50; 
 int c;
-c = strlen(*s);
+c = strlen('*s');
 return (c);
 }
