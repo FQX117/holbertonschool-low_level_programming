@@ -2,6 +2,6 @@
 /*
 */int _strlen(char *s)
 {
-char str[];
+char str[50];
 int len;
 
