@@ -11,7 +11,7 @@ if (c == 2 || c == 4)
 c++;
 continue;
 }
-printf ("%d", c);
+printf("%d", c);
 {
 putchar('\n');
 c++;
