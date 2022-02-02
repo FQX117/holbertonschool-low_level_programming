@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include "main.h"
-//
-void reset_to_98(int *n); 
+/*
+*/void reset_to_98(int *n); 
 {
     int num = 0;
     int *n = &num;
