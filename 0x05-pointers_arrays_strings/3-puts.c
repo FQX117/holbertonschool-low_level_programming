@@ -2,6 +2,10 @@
 /*
 */void _puts(char *str)
 {
-_putchar(*str);
-
+int x;
+for (x = 0; str[x] != '\0'; ++)
+{
+_putchar(str[x]);
+}
+_putchar('\n');
 }
