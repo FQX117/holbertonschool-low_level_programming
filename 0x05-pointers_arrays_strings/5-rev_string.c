@@ -2,23 +2,18 @@
 /*
 */void rev_string(char *s)
 {
-int c;
 int x;
-int tmp;
-int size;
-while (s[c] != 0)
+int c;
+int y;
+for (c = 0; s[c] != '\0'; c++)
 {
-c++;
 }
-size = c;
-c = 0;
-x = size - 1;
-while (c < x)
+c = c - 1;
+for (x = 0; x < c; x++)
 {
-tmp = s[c];
-s[c] = s[x];
-s[x] = tmp;
-c++;
-x--;
+y = s[x];
+s[x] = s[c];
+s[c] = y;
+c--;
 }
 }
