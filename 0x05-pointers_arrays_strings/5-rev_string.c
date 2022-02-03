@@ -11,7 +11,7 @@ while (s[c] != 0)
 c++;
 }
 size = c;
-i = 0;
+c = 0;
 x = size - 1;
 while (c < x)
 {
