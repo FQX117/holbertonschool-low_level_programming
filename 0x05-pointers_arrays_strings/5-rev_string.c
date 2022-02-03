@@ -16,7 +16,7 @@ x = size - 1;
 while (c < x)
 {
 tmp = s[c];
-s[i] = s[x];
+s[c] = s[x];
 s[x] = tmp;
 c++;
 x--;
