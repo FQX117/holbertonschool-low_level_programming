@@ -2,8 +2,19 @@
 /*
 */int _strlen(char *s)
 {
-*s = 50; 
-int c;
-c = strlen('*s');
-return (c);
+int a = 0;
+int c = 0;
+while (c <= a)
+{
+if (s[a] != '\0')
+{
+a++;
+}
+else if (s[a] == '\0')
+{
+return (a);
+}
+c++;
+}
+return (a);
 }
