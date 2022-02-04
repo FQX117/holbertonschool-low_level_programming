@@ -1,5 +1,4 @@
 #include "main.h"
-
 /*
 */void print_most_numbers(void)
 {
@@ -12,12 +11,9 @@ c++;
 continue;
 }
 printf("%d", c);
-
 {
-
 c++;
 }
-
 }
 putchar('\n');
 }
