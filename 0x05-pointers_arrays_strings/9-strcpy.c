@@ -2,15 +2,9 @@
 /*
 */char *_strcpy(char *dest, char *src)
 {
-int c;
-int x;
-for (x = 0; dest[x] != '\0'; x++)
-;
-for (c = 0; src[c] != '\0'; c++)
-{
-dest[x] = src[c];
-x++;
-}
-dest[x] = '\0';
+int x = 0;
+do {
+*(dest + x) = *(src + x);
+} while (*(src + x++));
 return (dest);
 }
