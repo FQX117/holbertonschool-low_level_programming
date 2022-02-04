@@ -9,7 +9,7 @@ for (x = 0; dest[x] != '\0'; x++)
 for (c = 0; src[c] != '\0'; c++)
 {
 dest[x] = src[c];
-i++;
+x++;
 }
 dest[x] = '\0';
 return (dest);
