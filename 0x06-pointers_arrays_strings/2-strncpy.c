@@ -1,5 +1,6 @@
 #include "holberton.h"
-char *_strncpy(char *dest, char *src, int n)
+/*
+*/char *_strncpy(char *dest, char *src, int n)
 {
 int x, c;
 for (x = 0; src[x] != '\0' && c < n; x++, c++)
