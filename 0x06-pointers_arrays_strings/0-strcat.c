@@ -14,5 +14,5 @@ for  (c = 0; src[c] != '\0'; ++c, ++x)
 dest[x] = src[c];
 }
 dest[x] = '\0';
-return(dest);
+return (dest);
 }
