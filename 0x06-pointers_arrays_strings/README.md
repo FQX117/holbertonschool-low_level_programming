@@ -1,0 +1,1 @@
+strinmgs and arrays
