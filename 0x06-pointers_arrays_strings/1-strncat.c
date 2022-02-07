@@ -3,16 +3,16 @@
 *Write a function that concatenates two strings.
 */char *_strncat(char *dest, char *src, int n)
  {
-int x, c;
-x = 0;
-while (dest[x] != '\0')
+int c;
+n = 0;
+while (dest[n] != '\0')
 {
-++x;
+++n;
 }
-for  (c = 0; src[c] != '\0'; ++c, ++x)
+for  (c = 0; src[c] != '\0'; ++c, ++n)
 {
-dest[x] = src[c];
+dest[n] = src[c];
 }
-dest[x] = '\0';
+dest[n] = '\0';
 return (dest);
 } 
