@@ -15,5 +15,5 @@
   }
   dest[x] = '\0';
   
-_putchar(dest + 1);
-}  
+return(dest);
+} 
