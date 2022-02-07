@@ -4,5 +4,6 @@
 {
 int x;
 for (x = 0; x == 0 && s1 && s2; s1++, s2++)
-return (0);
+x = s1 - s2;
+return (x);
 }
