@@ -6,7 +6,9 @@
 int x;
 int c = strlen(dest);
 for (x = 0; x < n && src[x] != '\0'; x++)
+{
  dest[c + x] = src[x];
  dest[c + x] = '\0';
+}
 return (dest);
 } 
