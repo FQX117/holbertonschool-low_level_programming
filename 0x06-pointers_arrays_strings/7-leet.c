@@ -6,13 +6,13 @@ char set1[6] = {"AEOTL"};
 char set2[6] = {"aeotl"};
 char set3[6] = {"43071"};
 int x;
-int b;
+int c;
 for (x = 0; s[x] != '\0'; x++)
 {
-for (b = 0 ; b < 6 ; b++)
+for (c = 0 ; c < 6 ; c++)
 {
-if (s[x] == set1[b] && s[a] == set2[b])
-s[x] = set3[b];
+if (s[x] == set1[c] && s[a] == set2[c])
+s[x] = set3[c];
 }
 }
 return (s);
