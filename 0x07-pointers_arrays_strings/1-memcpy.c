@@ -5,8 +5,7 @@
 *n is how many byts to copy
 */char *_memcpy(char *dest, char *src, unsigned int n)
 {
-int x = 0;
-n = 100;
+unsigned int x = 0;
 for (; x < n; x++)
 dest[x] = src[x];
 return (dest);
