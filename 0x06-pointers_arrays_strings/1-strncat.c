@@ -6,7 +6,7 @@
 for (; dest; dest++)
 {
 for (; (n-- && src) && (dest == src); dest++, src++)
-	}
-	*dest = '\0';
+	dest = '\0';
+}
 	return (dest);
 }
