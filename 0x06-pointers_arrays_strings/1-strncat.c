@@ -5,6 +5,8 @@
 {
 int x, c;
 for (x = 0; dest[x] != '\0'; x++)
+{
+}
 for (c = 0; c < n && src[c] != '\0'; c++)
 {
 dest[x] = src[c];
