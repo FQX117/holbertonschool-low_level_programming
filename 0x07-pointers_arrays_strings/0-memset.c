@@ -4,7 +4,7 @@
 {
 {
 int x;
-for (x = 0; x < n && s[x] == b; x++)
+for (x = 0; x < n || s[x] == b; x++)
 ;
 }
 return (s);
