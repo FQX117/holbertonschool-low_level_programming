@@ -3,12 +3,10 @@
 *Write a function that concatenates two strings.
 */char *_strncat(char *dest, char *src, int n)
 {
-int x;
-int c = strlen(dest);
-for (x = 0; x < n && src[x] != '\0'; x++)
+for (; dest; dest++)
 {
-dest[c + x] = src[x];
-dest[c + x] = '\0';
-}
-return (dest);
+for (; (n-- && src) && (dest == src); dest++, src++)
+	}
+	*dest = '\0';
+	return (dest);
 }
