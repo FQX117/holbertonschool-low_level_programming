@@ -5,5 +5,5 @@
 int x = 0;
 for (; n; x++, n--)
 s[x] = b;
-return (0);
+return (s);
 }
