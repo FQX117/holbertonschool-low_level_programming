@@ -2,13 +2,12 @@
 /*
 */void reverse_array(int *a, int n)
 {
-int x;
-while (a < n)
+int str;
+int rev;
+for (str = n - 1; str >= n / 2; str--)
 {
-x = arr[a];
-arr[a] = arr[n];
-arr[n] = x;
-a++;
-n--;
+rev = a[str];
+a[str] = a[n - 1 - str];
+a[n - 1 - str] = rev;
 }
 }
