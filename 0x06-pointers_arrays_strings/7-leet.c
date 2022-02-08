@@ -11,7 +11,7 @@ for (x = 0; s[x] != '\0'; x++)
 {
 for (c = 0 ; c < 6 ; c++)
 {
-if (s[x] == set1[c] && s[a] == set2[c])
+if (s[x] == set1[c] && s[x] == set2[c])
 s[x] = set3[c];
 }
 }
