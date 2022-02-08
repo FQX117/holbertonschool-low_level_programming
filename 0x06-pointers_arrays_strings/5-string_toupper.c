@@ -6,7 +6,7 @@ int x;
 for (x = 0; str[x]; x++)
 {
 if (str[x] >= 'a' && str[x] <= 'z')
-str[x] -= ' ';  //its a space
+str[x] -= ' ';
 }
 return (str);
 }
