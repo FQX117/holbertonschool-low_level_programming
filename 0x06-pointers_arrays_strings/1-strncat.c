@@ -4,11 +4,11 @@
 */char *_strncat(char *dest, char *src, int n)
 {
 int x;
-char c;
+int c;
 for (x = 0; dest[x]; x++)
-*c = dest + x;
+c = dest + x;
 for (; src && n--; c++, src++)
-*c = src;
+c = src;
 c = '\0';
 return (dest);
 }
