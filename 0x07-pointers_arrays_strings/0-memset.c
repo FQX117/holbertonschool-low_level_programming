@@ -2,10 +2,8 @@
 /*
 */char *_memset(char *s, char b, unsigned int n)
 {
-{
-int x;
-for (x = 0; x < n || s[x] == b; x++)
-;
-}
-return (s);
+int x = 0;
+for (; n; x++, n--)
+s[x] = b;
+return (0);
 }
