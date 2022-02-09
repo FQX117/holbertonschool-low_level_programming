@@ -6,7 +6,7 @@ if (*s != '\0')
 {
 _putchar (*s);
 s++;
-_puts_recursion (s);
+_puts_recursion(s);
 }
 else
 _putchar ('\n');
