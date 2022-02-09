@@ -1,8 +1,7 @@
 # include "main.h"
-#include <bits/stdc++.h>
+#include <string.h>
 void _print_rev_recursion(char *s)
 {
-  reverse(s.begin(), s.end());
-  count << s;
+  strrev(s);
   return (s);
 }
