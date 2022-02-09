@@ -6,9 +6,9 @@
 int numof = 0;
 int x = 0;
 int c = 0;
-for (;s[x] != '\0' && s[x] != ' '; x++)
+for (; s[x] != '\0' && s[x] != ' '; x++)
 {
-for (;accept[c] != '\0'; c++)
+for (; accept[c] != '\0'; c++)
 {
 if (accept[c] == s[x])
 numof++;
