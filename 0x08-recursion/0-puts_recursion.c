@@ -7,5 +7,5 @@ void _puts_recursion(char *s)
   {
     return (s);
   }
-  return ('\n')
+  return ('\n');
   }
