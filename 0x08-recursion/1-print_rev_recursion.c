@@ -8,5 +8,5 @@ void _print_rev_recursion(char *s)
   
   _putchar (*s);
   }
-  return (0);
+  return (s);
 }
