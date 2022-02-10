@@ -1,9 +1,10 @@
 #include "main.h" 
 /*
 */int factorial(int n)
-int x = 1;
- 
 {
+ int x = 1;
+ 
+
   if (n > 0)
   {
     --n;
