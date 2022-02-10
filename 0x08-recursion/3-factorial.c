@@ -6,5 +6,6 @@
   {
     return (-1);
   }
-  return (0);
+  if (n > 0)
+  return (n);
 }
