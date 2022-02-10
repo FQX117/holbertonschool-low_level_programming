@@ -3,9 +3,9 @@
 */int factorial(int n)
 {
   if (n > 0)
-  {
-    return (0);
-  }
- else
+  
+  return (int factorial(1));
+  
+
   return (-1);
 }
