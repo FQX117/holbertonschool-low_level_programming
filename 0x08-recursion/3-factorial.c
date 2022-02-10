@@ -1,14 +1,14 @@
 #include "main.h" 
 /*
 */int factorial(int n)
-int x = 1, c;
- c = n;
+int x = 1, n;
+ 
 {
-  if (c > 0)
+  if (n > 0)
   {
     --n;
     
   x = x * n;
   }
-  return (-1);
+  return (x);
 }
