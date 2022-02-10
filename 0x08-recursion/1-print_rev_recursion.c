@@ -8,7 +8,10 @@ if (*s != '\0')
 _print_rev_recursion(++s);
 _putchar (*s);
 }
- return'\r';
+  {
+    _putchar('\n');
+  }
+ return;
   
 
 }
