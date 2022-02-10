@@ -2,7 +2,7 @@
 /*
 */int factorial(int n)
 {
- int x = 1;
+ int x = 1, n;
  
 
   if (n > 0)
