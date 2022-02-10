@@ -10,5 +10,5 @@ _putchar (*s);
   }
   
 else
-  return ('\n');
+  _putchar ('\n');
 }
