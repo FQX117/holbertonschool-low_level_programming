@@ -1,4 +1,4 @@
-#include "holberton.h"
+#include "main.h"
 /*
 *Write a function that concatenates two strings.
 */char *_strcat(char *dest, char *src)
