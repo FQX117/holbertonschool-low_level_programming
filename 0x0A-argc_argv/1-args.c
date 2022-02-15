@@ -4,6 +4,6 @@
 {
 int x = 0;
 for (; x < argc; x++)
-printf("%2d", x);
+printf("%d", x);
 return (0);
 }
