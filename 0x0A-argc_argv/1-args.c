@@ -5,6 +5,6 @@
 int x = 0;
 for (; x < argc; x++)
 
-printf("argv[%d]", x);
+printf("argv[x]");
 return (0);
 }
