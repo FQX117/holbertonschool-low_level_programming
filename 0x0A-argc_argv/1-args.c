@@ -3,7 +3,7 @@
 */int main(int argc, char *argv[] __attribute__((unused)))
 {
 int x = 0;
-for (; x < argc; x++)
+if (x < argc)
 printf("%d\n", x);
 return (0);
 }
