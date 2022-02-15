@@ -8,7 +8,7 @@ if (argc > 1 && argc < 4)
     int total = 0;
     for (; total < argc; total++)
     {
-        total *= atoi(argv[total]);
+        total = total * atoi(argv[total]);
     }
 printf ("%d\n", total);
 }
