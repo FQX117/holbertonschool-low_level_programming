@@ -4,6 +4,7 @@
 {
 int x = 0;
 if (x < argc)
+x++;
 printf("%d\n", x);
 return (0);
 }
