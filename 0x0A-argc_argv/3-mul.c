@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdlib.h>
 /*
 */ int main(int argc, char *argv[])
 {
@@ -7,7 +8,7 @@ if (argc > 1 && argc < 4)
     int total = 0;
     for (; total < argc; total++)
     {
-        total *= _atoi(argv[total]);
+        total *= atoi(argv[total]);
     }
 printf ("%d", total);
 }
