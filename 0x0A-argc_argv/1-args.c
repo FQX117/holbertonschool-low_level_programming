@@ -4,6 +4,6 @@
 {
 int x = 0;
 for (; x < argc; x++)
-printf("%s" ,argv[x]);
+printf("%d : %s\n", x ,argv[x]);
 return (0);
 }
