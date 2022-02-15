@@ -10,7 +10,7 @@ if (argc > 1 && argc < 4)
     {
         total *= atoi(argv[total]);
     }
-printf ("%d", total);
+printf ("%d\n", total);
 }
 else
 printf ("error\n");
