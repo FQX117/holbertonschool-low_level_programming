@@ -6,7 +6,7 @@
 {
 if (argc > 1 && argc < 4)
 {
-    int total = 0;
+    int total = 1;
     int one = 1;
     for (; total < argc; total++)
     {
