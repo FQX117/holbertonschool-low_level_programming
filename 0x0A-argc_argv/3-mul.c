@@ -2,15 +2,16 @@
 #include <stdlib.h>
 /*
 */ int main(int argc, char *argv[])
-{
-int total = 1;
-int one = 1
-{
+
 if (argc != 3)
 {
 printf("Error\n");
 return (1);
-}   
+}
+{
+int total = 1;
+int one = 1;
+{   
 for (; total < argc; total++)
 {
 one *= atoi(argv[total]);
