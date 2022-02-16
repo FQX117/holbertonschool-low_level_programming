@@ -15,9 +15,8 @@ int one = 1;
 for (; total < argc; total++)
 {
 one *= atoi(argv[total]);
-}
 printf ("%d\n", one);
 return(0);
 }
-}
+
   
