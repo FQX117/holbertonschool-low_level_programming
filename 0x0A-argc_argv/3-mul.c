@@ -4,7 +4,7 @@
 */ int main(int argc, char *argv[])
 
 {
-if (argc < 3)
+if (argc < 3 && argc > 1)
 {
 int total = 1;
 int one = 1;
