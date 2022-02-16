@@ -16,5 +16,5 @@ printf("%d\n", one);
 }
 else
 printf("error\n");
-return(0);
+return (0);
 }
