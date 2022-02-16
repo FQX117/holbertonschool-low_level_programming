@@ -6,6 +6,7 @@
 if (argc > 1 && argc < 4)
 {
     int total = 1;
+    int one = 1;
     for (; total < argc; total++)
     {
         total *= atoi(argv[total]);
