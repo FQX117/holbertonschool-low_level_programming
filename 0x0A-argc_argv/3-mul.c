@@ -14,7 +14,5 @@ if (argc > 1 && argc < 4)
     }
 printf ("%d\n", one);
 }
-else
-printf ("Error\n");
-return(0);
+return("Error\n");
 }
