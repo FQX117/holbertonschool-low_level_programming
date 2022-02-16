@@ -15,6 +15,6 @@ one *= atoi(argv[total]);
 printf("%d\n", one);
 }
 else
-printf("error\n");
+printf("Error\n");
 return (0);
 }
