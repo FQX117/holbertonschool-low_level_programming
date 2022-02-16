@@ -11,7 +11,7 @@ if (argc > 1 && argc < 4)
     {
         one *= atoi(argv[total]);
     }
-printf ("%d\n", total);
+printf ("%d\n", one);
 }
 else
 printf ("error\n");
