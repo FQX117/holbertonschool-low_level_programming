@@ -5,14 +5,16 @@
 {
 if (argc != 3)
 {
+   int total = 1;
+    int one = 1
+    {
     printf("Error\n");
     return (1);
 }   
 
 
 
-    int total = 1;
-    int one = 1;
+   
     for (; total < argc; total++)
     {
         one *= atoi(argv[total]);
