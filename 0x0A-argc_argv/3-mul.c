@@ -2,7 +2,12 @@
 #include <stdlib.h>
 /*
 */ int main(int argc, char *argv[])
-
+{
+if (argc !=3)
+{
+    printf("Error\n");
+    return (0);
+}   
 {
 if (argc > 1 && argc < 4)
 {
@@ -13,7 +18,7 @@ if (argc > 1 && argc < 4)
         one *= atoi(argv[total]);
     }
 printf ("%d\n", one);
-}
-printf ("Error\n");    
+}    
 return(0);
+}
 }
