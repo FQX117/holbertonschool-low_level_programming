@@ -4,17 +4,17 @@
 */ int main(int argc, char *argv[])
 
 {
-if (argc < 4 && argc > 1)
-{
 int total = 1;
 int one = 1;
+if (argc != 3)
+{
+printf("Error\n");
+return (1);
+}
 for (; total < argc; total++)
 {
 one *= atoi(argv[total]);
-}
 printf("%d\n", one);
 }
-else
-printf("Error\n");
 return (0);
 }
