@@ -2,21 +2,13 @@
 #include <stdlib.h>
 /*
 */ int main(int argc, char *argv[])
+
 {
 if (argc != 3)
 {
 printf("Error\n");
 return (1);
 }
-{
-int total = 1;
-int one = 1;
-{   
-for (; total < argc; total++)
-{
-one *= atoi(argv[total]);
-printf ("%d\n", one);
-return(0);
+printf("%d\n", atoi(argv[1]) * atoi(argv[2]));
+return (0);
 }
-}
-  
