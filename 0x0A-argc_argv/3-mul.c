@@ -19,3 +19,5 @@ one *= atoi(argv[total]);
 printf ("%d\n", one);
 return(0);
 }
+}
+  
