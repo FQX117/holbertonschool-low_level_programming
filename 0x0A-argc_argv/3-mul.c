@@ -7,13 +7,14 @@
 if (argc > 1 && argc < 4)
 {
     int total = 0;
+    int one = 1;
     for (; total < argc; total++)
     {
-        total *= atoi(argv[total]);
+        one *= atoi(argv[total]);
     }
-printf ("%d\n", total);
+printf ("%d\n", one);
 }
 else
-printf ("error\n");
+printf ("Error\n");
 return(0);
 }
