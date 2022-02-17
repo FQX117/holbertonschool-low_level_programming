@@ -3,7 +3,7 @@
 /*
  */char *create_array(unsigned int size, char c)
 
- {
+{
 char *x;
 int i = 0;
 if (size == 0)
