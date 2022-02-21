@@ -1,0 +1,1 @@
+this is kida cool and could be relly usfull in games.
