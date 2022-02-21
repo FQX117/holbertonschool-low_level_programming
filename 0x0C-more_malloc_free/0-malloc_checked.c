@@ -3,6 +3,9 @@
 */void *malloc_checked(unsigned int b)
 
 {
-malloc(sizeof(int)*b);
-return(b);  
+int *p;
+p = (int*)malloc(sizeof(int)*b);
+if (p == NULL)
+exit (98);
+return(p);  
 }
