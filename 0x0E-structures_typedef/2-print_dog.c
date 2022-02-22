@@ -11,20 +11,20 @@
     
     if (d->name == NULL)
     
-        printf("%s\n", "(nil)");
+        printf("(nil)\n");
     
     else
     printf("%s\n", d->name);
     
     if (d->age == 0 )
     
-        printf("%s\n", "(nil)");
+        printf("(nil)\n");
     
     else
-    printf("%f1\n", d->age);
+    printf("%f3.1\n", d->age);
     if (d->owner == NULL)
     
-        printf("%s\n", "(nil)");
+        printf("(nil)\n");
     
     else
     printf("%s\n", d->owner);
