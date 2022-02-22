@@ -5,7 +5,7 @@
 {
     if (d == NULL)
     {
-        printf("\0");
+        return;
     }
     else
     {
