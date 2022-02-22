@@ -5,10 +5,10 @@
 {
 _strcat(*s1, *s2);
 n = *s1;
-*n = malloc (sizeof(*n));
+n = malloc (sizeof(n));
 if (n != NULL)
 {
 return (NULL);
 }
-return(0);
+return(n);
 }
