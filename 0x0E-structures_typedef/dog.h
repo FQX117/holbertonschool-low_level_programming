@@ -3,8 +3,7 @@
 #include <stdlib.h>
 #include <stdio.h>
 /*
-*/
-struct dog
+*/struct dog
 {
 char *name;
 float age;
