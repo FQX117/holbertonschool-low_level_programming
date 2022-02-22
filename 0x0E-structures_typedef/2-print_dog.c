@@ -7,6 +7,8 @@
     {
         printf("\0");
     }
+    else
+    {
     if (d->name == NULL)
     {
         printf("%s\n", "(nil)");
@@ -26,4 +28,5 @@
     }
     else
     printf("%s\n", d->owner);
+}
 }
