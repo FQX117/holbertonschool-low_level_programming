@@ -4,6 +4,6 @@
 
 {
 printf(d->name);
-print(d->age);
+printf(d->age);
 printf(d->owner);  
 }
