@@ -3,10 +3,10 @@
 */char *string_nconcat(char *s1, char *s2, unsigned int n)
 
 {
-int x = 0;
-*_strcat(*s1, *s2);
-x = *s1;
-x = malloc(sizeof(n));
+void *x = malloc(sizeof(n));
+char *_strcat(char *s1, char *s2);
+x = s1;
+
 if (x != NULL)
 {
 return (NULL);
