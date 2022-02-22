@@ -16,7 +16,7 @@
     
     if (d->age == 0 )
     {
-        printf("%f3.1\n", "(nil)");
+        printf("%s\n", "(nil)");
     }
     else
     printf("%f3.1\n", d->age);
