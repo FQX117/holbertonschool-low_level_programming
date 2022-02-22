@@ -1,0 +1,1 @@
+strut is the ablility to refrance grupes of variables. this will be usfull for longer informatuion chains
