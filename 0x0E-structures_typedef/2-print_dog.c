@@ -3,7 +3,7 @@
 */void print_dog(struct dog *d)
 
 {
-print(d->name);
+printf(d->name);
 print(d->age);
 print(d->owner);  
 }
