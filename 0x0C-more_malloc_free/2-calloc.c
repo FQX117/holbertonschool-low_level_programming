@@ -3,8 +3,8 @@
 */void *_calloc(unsigned int nmemb, unsigned int size)
 
 {
-	unsigned int x, y;
-	char *new;
+unsigned int x, y;
+char *new;
 if (nmemb == 0 || size == 0)
 return (NULL);
 y = (nmemb * size);
