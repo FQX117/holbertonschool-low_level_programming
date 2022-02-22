@@ -21,7 +21,7 @@
         printf("(nil)\n");
     
     else
-    printf("%f3.1\n", d->age);
+    printf("%f1\n", d->age);
     if (d->owner == NULL)
     
         printf("(nil)\n");
