@@ -3,7 +3,27 @@
 */void print_dog(struct dog *d)
 
 {
-printf(d->name);
-printf(d->age);
-printf(d->owner);  
+    if (d == NULL)
+    {
+        printf("\0");
+    }
+    if (d->name == NULL)
+    {
+        printf("%s\n", "(nil)");
+    }
+    else
+    printf("%s\n", d->name);
+    
+    if (d->age == 0 )
+    {
+        printf("%f3.1\n", "(nil)");
+    }
+    else
+    printf("%f3.1\n", d->age);
+    if (d->owner == NULL)
+    {
+        printf("%s\n", "(nil)");
+    }
+    else
+    printf("%s\n", d->owner);
 }
