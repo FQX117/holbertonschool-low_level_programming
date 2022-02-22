@@ -5,5 +5,5 @@
 {
 printf(d->name);
 print(d->age);
-print(d->owner);  
+printf(d->owner);  
 }
