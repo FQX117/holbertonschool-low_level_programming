@@ -7,4 +7,5 @@
 if (f == NULL)
 return;
 (f)(name);
+return("\0");  
 }
