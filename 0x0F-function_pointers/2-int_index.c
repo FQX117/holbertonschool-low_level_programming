@@ -10,6 +10,7 @@ return (-1);
 for (; x < size; x++)
 {
 if (cmp(array[x]))
-}
 return (x);
+}
+return (0);
 }
