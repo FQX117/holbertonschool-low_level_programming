@@ -5,7 +5,7 @@
 
 {
 unsigned int x = 0;
-if (action == NULL)
+if (action == NULL || array == NULL)
 return;
 for (; x < size; x++)
 action(array[x]);
