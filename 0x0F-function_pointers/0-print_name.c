@@ -6,5 +6,5 @@
 {
 if (f == NULL)
 return;
-(f)(name);
+f(name);
 }
