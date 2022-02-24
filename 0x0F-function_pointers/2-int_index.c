@@ -8,6 +8,8 @@ if (size <= 0)
 return (-1);
 
 for (; x < size; x++)
+{
 if (cmp(array[x]))
+}
 return (x);
 }
