@@ -14,5 +14,5 @@ for (; x < size; x++)
 if (cmp(array[x]))
 return (x);
 }
-return (0);
+return (-1);
 }
