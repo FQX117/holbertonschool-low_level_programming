@@ -6,7 +6,7 @@
 
 {
 int x = 0;
-if (size <= 0)
+if (size <= 0 || array == NULL || cmp == NULL)
 return (-1);
 
 for (; x < size; x++)
@@ -14,5 +14,5 @@ for (; x < size; x++)
 if (cmp(array[x]))
 return (x);
 }
-return (-1);
+return (0);
 }
