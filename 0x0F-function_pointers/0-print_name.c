@@ -1,5 +1,6 @@
 #include "function_pointers.h"
-/*this fun prints a name
+/*
+*this fun prints a name
 */void print_name(char *name, void (*f)(char *))
 
 {
