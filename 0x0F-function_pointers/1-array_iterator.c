@@ -1,5 +1,6 @@
 #include "function_pointers.h"
-/*this executes a fun of a fun
+/*
+*this executes a fun of a fun
 */void array_iterator(int *array, size_t size, void (*action)(int))
 
 {
