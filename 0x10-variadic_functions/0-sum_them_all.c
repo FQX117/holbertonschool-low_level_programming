@@ -1,4 +1,5 @@
 #include "variadic_functions.h"
+#include <stdarg.h>
 /*
 *im trying somthing new check the header it dint work
 */int sum_them_all(const unsigned int n, ...)
