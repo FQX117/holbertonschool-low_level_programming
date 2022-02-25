@@ -9,9 +9,7 @@ if (n == 0)
 return (0);
 va_start(ap, n);
 for (x = 0 ; x < n; x++)
-{
 total += va_arg(ap, int);
-}
 va_end(ap);
 return (total);
 }
