@@ -15,7 +15,7 @@ y = 0;
 va_start(ap, n);
 for (x = 0 ; x < n; x++)
 {
-if (!c)
+if (c == NULL)
 printf("(nil)");
 else
 printf("%s", va_arg(ap, char *));
