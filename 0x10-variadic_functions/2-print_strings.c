@@ -20,7 +20,7 @@ if (!c)
 printf("(nil)");
 else
 printf("%s", c);
-if (x < n -1 && y != 0)
+if (x < n - 1 && y != 0)
 printf("%s", separator);
 }
 printf("\n");
