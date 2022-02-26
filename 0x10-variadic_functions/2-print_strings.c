@@ -15,10 +15,11 @@ y = 0;
 va_start(ap, n);
 for (x = 0 ; x < n; x++)
 {
-if (c == NULL)
+c = va_arg(ap, char *);
+if (!c)
 printf("(nil)");
 else
-printf("%s", va_arg(ap, char *));
+printf("%s", c);
 if (x < n -1 && y != 0)
 printf("%s", separator);
 }
