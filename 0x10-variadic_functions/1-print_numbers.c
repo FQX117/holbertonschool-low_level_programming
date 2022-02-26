@@ -7,7 +7,7 @@
 unsigned int x;
 va_list ap;
 if (!separator)
-separator = 0;
+return;
 va_start(ap, n);
 for (x = 0 ; x < n; x++)
 {
