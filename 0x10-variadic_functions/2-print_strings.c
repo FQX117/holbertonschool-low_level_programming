@@ -5,19 +5,19 @@
 
 {
 unsigned int x;
-    va_list ap;
-    if (separator == NULL)
-    return;
-    va_start(ap, n);
-    for (x = 0 ; x < n; x++)
-    {
-        if (!n) 
-        printf("(nil)");
-        else
-    printf("%s", va_arg(ap, char *));
-    if (x < n)
-    printf("%s", separator);
-    }
-    printf("\n");
-    va_end(ap);
+va_list ap;
+if (separator == NULL)
+return;
+va_start(ap, n);
+for (x = 0 ; x < n; x++)
+{
+if (!n) 
+printf("(nil)");
+else
+printf("%s", va_arg(ap, char *));
+if (x < n)
+printf("%s", separator);
+}
+printf("\n");
+va_end(ap);
 }
