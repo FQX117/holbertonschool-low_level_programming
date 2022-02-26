@@ -9,13 +9,13 @@ unsigned int x;
 va_list ap;
 if (!separator)
 {
-separator = 0;
+return;
 }
 va_start(ap, n);
 for (x = 0 ; x < n; x++)
 {
 printf("%d", va_arg(ap, int));
-if (x < n - 1)
+if (x < n - 1 && separator != 0)
 printf("%s", separator);
 }
 printf("\n");
