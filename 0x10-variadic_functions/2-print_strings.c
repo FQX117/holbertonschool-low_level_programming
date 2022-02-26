@@ -7,17 +7,19 @@
 
 {
 unsigned int x;
+int y = 1;
+char *c;
 va_list ap;
 if (!separator)
-return;
+y = 0;
 va_start(ap, n);
 for (x = 0 ; x < n; x++)
 {
-if (!n)
+if (!c)
 printf("(nil)");
 else
 printf("%s", va_arg(ap, char *));
-if (x < n)
+if (x < n -1 && y != 0)
 printf("%s", separator);
 }
 printf("\n");
