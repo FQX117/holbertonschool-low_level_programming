@@ -12,7 +12,7 @@ va_start(ap, n);
 for (x = 0 ; x < n; x++)
 {
 printf("%d", va_arg(ap, int));
-if (x < n)
+if (x < n - 1)
 printf("%s", separator);
 }
 printf("\n");
