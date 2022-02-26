@@ -1,5 +1,4 @@
 #include "variadic_functions.h"
-#include <stdio.h>
 /*
 * so now we will just print nember just random nuembers jk there not random
 */void print_numbers(const char *separator, const unsigned int n, ...)
