@@ -7,6 +7,7 @@
 {
 unsigned int x;
 va_list ap;
+separator = 1;
 if (!separator)
 {
 return;
