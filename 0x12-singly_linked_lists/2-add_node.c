@@ -23,8 +23,8 @@ if (str != NULL)
     c = strdup(str);
     x = _strlen(str);
 }
-new->len = x;
-new->str = c;
+add->len = x;
+add->str = c;
 add->next = *head;
 *head = add;
 return (*head);
