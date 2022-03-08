@@ -5,8 +5,8 @@
 list_t *x;
 while (head != NULL)
 {
-x = head;
-head = head->next;
+head = x;
+x = head->next;
 free(x);
 free(x->str);
 }
