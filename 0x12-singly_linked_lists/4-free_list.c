@@ -2,14 +2,14 @@
 /*
 */void free_list(list_t *head)
 {
-	list_t *store;
+	list_t *x;
 
 	while (head != NULL)
 	{
-		store = head->next;
+		x = head->next;
 		free(head->str);
 		free(head);
-		head = store;
+		head = x;
 	}
 }
   
