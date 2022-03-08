@@ -5,12 +5,12 @@
 	if (h)
 	{
 		if (h->str)
-			printf("[%d] %s%s", h->x, h->str, "\n");
+			printf("[%d] %s%s", h->len, h->str, "\n");
 		else
 			printf("[%d] %s%s", 0, "(nil)", "\n");
-		if (h->n)
+		if (h->next)
 		{
-			return (1 + print_list(h->n));
+			return (1 + print_list(h->next));
 		}
 		return (1);
 	}

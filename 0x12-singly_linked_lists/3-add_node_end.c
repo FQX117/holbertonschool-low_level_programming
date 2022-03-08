@@ -12,17 +12,17 @@
 			c->str = strdup(str);
 		if (c->str)
 		{
-			c->x = x;
-			c->n = NULL;
+			c->len = x;
+			c->next = NULL;
 			if (!head)
 			{
 				*head = c;
 				return (c);
 			}
 			p = *head;
-			while (p->n)
-				p->n = c;
-			p = p->n;
+			while (p->next)
+				p->next = c;
+			p = p->next;
 			return (c);
 		}
 		free(c);

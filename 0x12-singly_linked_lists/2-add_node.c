@@ -9,8 +9,8 @@ add = malloc(sizeof(list_t));
 if (!add)
 exit(98);
 add->str = strdup(str);
-add->x = _strlen(str);
-add->n = *head;
+add->len = _strlen(str);
+add->next = *head;
 *head = add;
 return (*head);
 }

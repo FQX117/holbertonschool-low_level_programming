@@ -6,7 +6,7 @@ list_t *x;
 while (head != NULL)
 {
 x = head;
-head = head->n;
+head = head->next;
 free(x);
 }
 }

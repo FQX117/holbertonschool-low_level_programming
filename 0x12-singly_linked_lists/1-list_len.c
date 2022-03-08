@@ -4,8 +4,8 @@
 {
 	if (!h)
 		return (0);
-	if (h->n == NULL)
+	if (h->next == NULL)
 		return (1);
-	h = h->n;
+	h = h->next;
 	return (1 + list_len(h));
 }
