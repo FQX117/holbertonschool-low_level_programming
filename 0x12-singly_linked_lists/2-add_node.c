@@ -13,18 +13,12 @@ return (x);
 */list_t *add_node(list_t **head, const char *str)
 {
 list_t *add;
-char *c;
-int x;
 add = malloc(sizeof(list_t));
 if (!head)
 return (NULL);
 if (str != NULL)
-{
-    c = strdup(str);
-    x = _strlen(str);
-}
-add->len = x;
-add->str = c;
+add->str = strdup(str);
+add->len = _strlen(str);
 add->next = *head;
 *head = add;
 return (*head);
