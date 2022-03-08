@@ -4,10 +4,10 @@
 {
 list_t *add;
 if (!head)
-exit(98);
+return (NULL);
 add = malloc(sizeof(list_t));
 if (!add)
-exit(98);
+return (NULL);
 add->str = strdup(str);
 add->len = _strlen(str);
 add->next = *head;
