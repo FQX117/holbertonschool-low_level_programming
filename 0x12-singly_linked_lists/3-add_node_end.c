@@ -1,14 +1,5 @@
 #include "lists.h"
 /*
-*/int _strlen(const char *c)
-{
-int x = 0;
-for (; c[x]; x++)
-;
-return (x);
-}
-
-/*
 */list_t *plus_node_end(list_t **head, const char *str)
 {
 	list_t *c, *p;
