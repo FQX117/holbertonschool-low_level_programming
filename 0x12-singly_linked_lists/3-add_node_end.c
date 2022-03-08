@@ -1,6 +1,6 @@
 #include "lists.h"
 /*
-*/list_t *plus_node_end(list_t **head, const char *str)
+*/list_t *add_node_end(list_t **head, const char *str)
 {
 	list_t *c, *p;
 	unsigned int len = 0;
