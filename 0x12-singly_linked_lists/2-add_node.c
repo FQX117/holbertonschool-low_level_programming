@@ -3,11 +3,10 @@
 */list_t *add_node(list_t **head, const char *str)
 {
 list_t *add;
+add = malloc(sizeof(list_t));
 if (!head)
 return (NULL);
-add = malloc(sizeof(list_t));
-if (!add)
-return (NULL);
+if (str != NULL)
 add->str = strdup(str);
 add->len = _strlen(str);
 add->next = *head;
