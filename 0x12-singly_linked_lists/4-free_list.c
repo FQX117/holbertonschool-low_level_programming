@@ -5,9 +5,14 @@
 list_t *x;
 while (head != NULL)
 {
-head = x;
-x = head->next;
-free(head);
-free(head->str);
+	list_t *store;
+
+	while (head != NULL)
+	{
+		store = head->next;
+		free(head->str);
+		free(head);
+		head = store;
+	}
 }
-}
+  
