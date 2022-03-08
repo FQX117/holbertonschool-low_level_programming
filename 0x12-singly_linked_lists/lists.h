@@ -6,7 +6,8 @@
 #include <string.h>
 #include <stddef.h>
 /** prototypes **/
-typedef struct list_s
+/*
+*/typedef struct list_s
 {
 	char *str;
 	unsigned int x;
