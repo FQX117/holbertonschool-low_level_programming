@@ -7,7 +7,7 @@ while (head != NULL)
 {
 head = x;
 x = head->next;
-free(x);
-free(x->str);
+free(head);
+free(head->str);
 }
 }
