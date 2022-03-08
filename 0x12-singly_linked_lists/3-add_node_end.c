@@ -3,7 +3,7 @@
 */list_t *plus_node_end(list_t **head, const char *str)
 {
 	list_t *c, *p;
-	unsigned int x = 0;
+	unsigned int len = 0;
 
 	c = malloc(sizeof(list_t));
 	if (c)
@@ -12,17 +12,17 @@
 			c->str = strdup(str);
 		if (c->str)
 		{
-			c->len = x;
+			c->len = len;
 			c->next = NULL;
-			if (!head)
+			if (!*head)
 			{
 				*head = c;
 				return (c);
 			}
 			p = *head;
 			while (p->next)
-				p->next = c;
-			p = p->next;
+				p = p->next;
+			p->next = c;
 			return (c);
 		}
 		free(c);
