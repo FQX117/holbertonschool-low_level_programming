@@ -8,7 +8,7 @@
 	c = malloc(sizeof(list_t));
 	if (c)
 	{
-		for (; *(str + x); x++)
+		for (; *(str + len); len++)
 			c->str = strdup(str);
 		if (c->str)
 		{
