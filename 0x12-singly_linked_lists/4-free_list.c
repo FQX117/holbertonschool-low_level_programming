@@ -3,7 +3,7 @@
 */void free_listint(list_t *head)
 {
 list_t *x;
-while (head)
+while (head != NULL)
 {
 x = head;
 head = head->next;
