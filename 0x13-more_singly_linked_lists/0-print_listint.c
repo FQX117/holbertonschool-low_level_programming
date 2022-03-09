@@ -4,7 +4,7 @@
 {
 int x = 0;
 for (; h; x++)
-printf ("%d\n", h->n)
+printf ("%d\n", h->n);
 h = h->next;
 return (x);
 }
