@@ -4,6 +4,7 @@
 {
 	if (!head)
 		return;
+		if (head)
 	head = head->next;
 	free(head);
 }
