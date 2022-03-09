@@ -12,7 +12,7 @@
 	if (*head)
 	{
 		cn = *head;
-		if (cn->next)
+		while (cn->next)
 		cn = cn->next;
 		cn->next = nn;
 		return (*head);
