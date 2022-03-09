@@ -4,6 +4,6 @@
 {
 	if (!head)
 		return;
-	free_listint(head->next);
+	head = head->next;
 	free(head);
 }
