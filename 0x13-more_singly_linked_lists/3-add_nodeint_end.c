@@ -4,7 +4,7 @@
 {
 	listint_t *nn, *cn;
 /** nn = new node cn = curent node **/
-	nn = malloc(sizeof(listint_t));
+	nn = malloc(sizeof(*nn));
 	if (nn)
 	{
 	nn->n = n;
