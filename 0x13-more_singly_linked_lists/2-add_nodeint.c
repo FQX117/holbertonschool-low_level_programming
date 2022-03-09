@@ -5,9 +5,8 @@
 	listint_t *nn;
 /** nn = new node **/
 	nn = malloc(sizeof(listint_t));
-	if (!nn)
+	if (nn)
 	{
-	return (NULL);
 	nn->n = n;
 	nn->next = *head;
 	*head = nn;
