@@ -4,7 +4,7 @@
 {
 	int total = 0;
 
-	if (head)
+	while (head)
 	{
 		total += head->n;
 		head = head->next;
