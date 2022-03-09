@@ -5,18 +5,20 @@
 	listint_t *nn, *cn;
 /** nn = new node cn = curent node **/
 	nn = malloc(sizeof(listint_t));
-	if (!nn)
-		return (NULL);
+	if (nn)
+	{
 	nn->n = n;
 	nn->next = NULL;
-	if (!*head)
+	if (*head)
 	{
-		*head = nn;
+		cn = *head;
+		if (cn->next)
+		cn = cn->next;
+		cn->next = nn;
 		return (*head);
 	}
 	cn = *head;
-	while (cn->next != NULL)
-		cn = cn->next;
-	cn->next = nn;
 	return (*head);
+}
+return (NULL);
 }
