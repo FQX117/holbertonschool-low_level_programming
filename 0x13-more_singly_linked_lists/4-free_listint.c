@@ -5,7 +5,7 @@
 	listint_t *p;
 	if (!head)
 		return;
-		else if (head)
+		while (head)
 		{
 			p = head;
 	head = head->next;
