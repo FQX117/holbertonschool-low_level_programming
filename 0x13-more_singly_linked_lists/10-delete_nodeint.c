@@ -8,7 +8,7 @@ return (-1);
 if (index == 0)
 {
 *head = new->next;
-free(new);
+free (new);
 return (1);
 }
 temp = *head;
