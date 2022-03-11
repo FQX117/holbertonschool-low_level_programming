@@ -1,4 +1,5 @@
 #include "main.h"
+#include "_strlen"
 /*
 */unsigned int binary_to_uint(const char *b)
 {
@@ -15,11 +16,4 @@ total += 1 << count;
 count++;
 }
 return (total);
-}
-int _strl(const char *s)
-{
-int i = 0;
-for (; s[i] != '\0'; i++)
-;
-return i;
 }
