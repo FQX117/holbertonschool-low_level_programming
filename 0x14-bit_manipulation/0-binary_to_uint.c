@@ -1,5 +1,5 @@
 #include "main.h"
-#include "_strlen"
+#include "_strlen.c"
 /*
 */unsigned int binary_to_uint(const char *b)
 {
