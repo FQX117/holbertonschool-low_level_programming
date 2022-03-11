@@ -4,6 +4,7 @@
 #include <stdio.h>  
 #include <conio.h>
 #include <stddef.h>
+#include <stdlib.h>
 /** prototypes **/
 int _putchar(char c);
 int _strl(const char *s);
