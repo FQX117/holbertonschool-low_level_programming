@@ -2,30 +2,27 @@
 /*
 */unsigned int binary_to_uint(const char *b)
 {
-	unsigned int n;
-	unsigned int i = 0;
-    int decimal_num = 0, temp = 0, rem;
-	if (b == NULL)
-		return (0);
-
-	for (i = 0; i != '\0'; i++)
-	{
-
-		if ((b[i] != 'b') && (b[i] != '0') && (b[i] != '1'))
-			return (0);
-
-		else
-{    
-      
-    for (; b != 0; temp++)  
-    {  
-        rem = b[i] % 10;  
-        b = b[i] / 10;  
-        n = n + rem * pow( 2, temp);  
-          
-    }  
-      
-} 
+unsigned int x;
+unsigned int c;
+if (b == NULL)
+return (0);
+for (c = 0; c != '\0'; c++)
+{
+if ((b[c] != 'b') && (b[c] != '0') && (b[c] != '1'))
+return (0);
+else
+{
+while (c != '\0')
+{
+if (b[c] == '1')
+x = c * 2;
+else if (b[c] == '\0' - 1)
+{
+if (b[c] == '1')
+x = x + 1;
 }
-return n;
+}
+}
+}
+return (x);
 }

@@ -3,6 +3,7 @@
 /** libraries **/
 #include <stdio.h>  
 #include <conio.h>
+#include <stddef.h>
 /** prototypes **/
 int _putchar(char c);
 unsigned int binary_to_uint(const char *b);
