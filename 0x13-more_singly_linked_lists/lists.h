@@ -7,7 +7,8 @@
 #include <stddef.h>
 
 /** Prototypes **/
-typedef struct listint_s
+/*
+*/typedef struct listint_s
 {
     int n;
     struct listint_s *next;
