@@ -1,8 +1,6 @@
 #include "main.h"
 /*
-*/int create_file(const char *filename, char *text_content)
-{
-size_t _strlen(char *str)
+*/size_t _strlen(char *str)
 {
 size_t i;
 for (i = 0; str[i]; i++)
