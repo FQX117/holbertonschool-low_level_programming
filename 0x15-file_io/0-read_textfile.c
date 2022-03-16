@@ -10,7 +10,7 @@ if (!filename)
 return (0);
 else if (x == -1)
 return (0);
-read(x, c, letters);
-write(x, c, letters);
+fread(x, c, letters);
+fwrite(x, c, letters);
 return (letters);
 }

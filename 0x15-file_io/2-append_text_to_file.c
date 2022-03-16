@@ -12,11 +12,11 @@ if (text_content)
 {
 while (text_content[len])
 len++;
-f_write = write(fd, text_content, len);
+f_write = fwrite(fd, text_content, len);
 }
 if (f_write != -1)
 x = 1;
-close(fd);
+pclose(fd);
 }
 return (x);
 }
