@@ -1,16 +1,31 @@
 #include "main.h"
 /*
-*/size_t read_textfile(const char *filename, size_t letters)
+*/ssize_t read_textfile(const char *filename, size_t letters)
 {
-int x;
-char *c;
-x = open(filename, O_RDWR);
-c = malloc(sizeof(char) * letters);
-if (!filename)
+int fd;
+ssize_t lenr, lenw;
+char *buffer;
+if (filename == NULL)
 return (0);
-else if (x == -1)
+fd = open(filename, O_RDONLY);
+if (fd == -1)
 return (0);
-fread(x, c, letters);
-fwrite(x, c, letters);
-return (letters);
+buffer = malloc(sizeof(char) * letters);
+if (buffer == NULL)
+{
+close(fd);
+return (0);
+}
+lenr = read(fd, buffer, letters);
+close(fd);
+if (lenr == -1)
+{
+free(buffer);
+return (0);
+}
+lenw = write(STDOUT_FILENO, buffer, lenr);
+free(buffer);
+if (lenr != lenw)
+return (0);
+return (lenw);
 }
