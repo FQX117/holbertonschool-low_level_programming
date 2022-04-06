@@ -3,8 +3,10 @@
 /**
  * libraries 
  */
+#include <stdio.h>
 #include <stddef.h>
 #include <stdlib.h>
+#include <string.h>
 /**
  * struct hash_node_s - Node of a hash table
  *
