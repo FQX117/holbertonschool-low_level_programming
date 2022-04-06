@@ -1,63 +1,38 @@
 #include "hash_tables.h"
 /*
-*/hash_node_t *new_node(const char *key, const char *value)
-{
-hash_node_t *new;
-new = malloc(sizeof(hash_node_t));
-if (new == NULL)
-{
-return (NULL);
-}
-new->key = strdup(key);
-if (!new->key)
-{
-free(new);
-return (NULL);
-}
-new->value = strdup(value);
-if (!new->value)
-{
-free(new->key);
-free(new);
-return (NULL);
-}
-return (NULL);
-}
-/*
 */int hash_table_set(hash_table_t *ht, const char *key, const char *value)
 {
-unsigned long int site;
-hash_node_t *new;
-hash_node_t *move;
-site = 0;
-if (!value || !key || !ht || !ht->array || ht->size == 0 || strlen(key) == 0)
+unsigned long int index;
+hash_node_t *currNode = malloc(sizeof(hash_node_t));
+hash_node_t *tempNode;
+if (!key || !ht || !currNode || strcmp("", key) == 0)
 {
+free(currNode);
 return (0);
 }
-site = key_index((const unsigned char *)key, ht->size);
-move = ht->array[site];
-while (move != NULL)
+index = key_index((const unsigned char *)key, ht->size);
+tempNode = ht->array[index];
+currNode->key = strdup(key);
+currNode->value = strdup(value);
+currNode->next = NULL;
+if (ht->array[index] == NULL)
+ht->array[index] = currNode;
+else
 {
-if (strcmp(move->key, key))
+while (tempNode != NULL)
 {
-free(move->value);
-move->value = strdup(value);
+if (strcmp(key, tempNode->key) == 0)
+{
+free(currNode->key);
+free(tempNode->value);
+tempNode->value = currNode->value;
+free(currNode);
 return (1);
 }
-move = move->next;
+tempNode = tempNode->next;
 }
-new = new_node(key, value);
-if (new == NULL)
-{
-return (0);
+currNode->next = ht->array[index];
+ht->array[index] = currNode;
 }
-new->next = NULL;
-if (ht->array[site] == NULL)
-{
-ht->array[site] = new;
-return (1);
-}
-new->next = ht->array[site];
-ht->array[site] = new;
 return (1);
 }
