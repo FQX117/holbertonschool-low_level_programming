@@ -1,6 +1,5 @@
 #include "hash_tables.h"
-/**
- * Write a function that deletes a hash table.
+/*
  */void hash_table_delete(hash_table_t *ht)
 {
 hash_node_t *next;

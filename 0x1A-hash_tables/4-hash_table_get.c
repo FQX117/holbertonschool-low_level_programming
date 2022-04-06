@@ -1,7 +1,5 @@
 #include "hash_tables.h"
-/**
-* Write a function that adds an element to the hash table.
-* Return: value of key or NULL.
+/*
 */char *hash_table_get(const hash_table_t *ht, const char *key)
 {
 hash_node_t *site;

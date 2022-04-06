@@ -1,7 +1,5 @@
 #include "hash_tables.h"
-/**
-* Write a function that adds an element to the hash table.
-* In case of collision, add the new node at the beginning of the list
+/*
 */hash_node_t *new_node(const char *key, const char *value)
 {
 hash_node_t *new;
