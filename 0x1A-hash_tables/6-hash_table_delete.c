@@ -2,23 +2,21 @@
 /*
  */void hash_table_delete(hash_table_t *ht)
 {
-hash_node_t *next;
-hash_node_t *front;
-unsigned long int x;
-if (!ht)
-{
+unsigned long int i;
+if (ht == NULL)
 return;
+for (i = 0; i < ht->size; i++)
+{
+if (ht->array[i] != NULL)
+{
+while (ht->array[i] != NULL)
+{
+free(ht->array[i]->key);
+free(ht->array[i]->value);
+free(ht->array[i]);
+ht->array[i] = ht->array[i]->next;
 }
-for (x = 0 ; x < ht->size ; x++)
-{
-front = ht->array[x];
-while (front)
-{
-next = front->next;
-free(front->key);
-free(front->value);
-free(front);
-front = next;
+free(ht->array[i]);
 }
 }
 free(ht->array);
