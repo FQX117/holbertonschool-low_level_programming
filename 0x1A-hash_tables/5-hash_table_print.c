@@ -2,8 +2,7 @@
 /**
 * Return: hash table.
 *Write a function that retrieves a value associated with a key.
-*/
-void hash_table_print(const hash_table_t *ht)
+*/void hash_table_print(const hash_table_t *ht)
 {
 hash_node_t *move;
 unsigned int x;
