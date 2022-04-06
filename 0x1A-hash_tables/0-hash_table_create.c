@@ -15,7 +15,7 @@ return (NULL);
 }
 table->size = size;
 table->array = calloc((size_t)table->size, sizeof(hash_node_t *));
-if (table->array == NULL);
+if (table->array == NULL)
 return (NULL);
 return (table); 
 }
