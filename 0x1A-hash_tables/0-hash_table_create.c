@@ -7,7 +7,6 @@ if (!size)
 return (NULL);
 table = malloc(sizeof(hash_table_t));
 if (!table)
-free(table);
 return (NULL);
 table->size = size;
 table->array = calloc((size_t)table->size, sizeof(hash_node_t *));
