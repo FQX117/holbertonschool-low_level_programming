@@ -2,7 +2,7 @@
 
 
 /**
- * linear_search 
+ * linear_search
  *
  * @array: holds elaments
  * @size: num of elaments
