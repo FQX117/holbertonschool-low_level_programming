@@ -2,7 +2,7 @@
 
 
 /**
- * binary_search_recursion
+ * binary_search_recursion - i guess i need this
  *
  * @array: pointer to the first element
  * @min: The index min
