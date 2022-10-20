@@ -10,6 +10,7 @@
 int linear_search(int *array, size_t size, int value);
 int binary_search(int *array, size_t size, int value);
 int binary_search_recursion(int *array, size_t min, size_t max, int value);
-
+int advanced_binary(int *array, size_t size, int value);
+int binary_search_recursion(int *array, size_t min, size_t max, int value);
 
 #endif
